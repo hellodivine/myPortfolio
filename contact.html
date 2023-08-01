@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="website icon" type="png" href="/portfolio-removebg-preview.png">
+</head>
+<body class="pr-24 pl-24 bg-gray-100">
+    <!-- landing page -->
+    <section class=" bg-white pt-4">
+        <!-- navigation menu -->
+        <nav class=" pt-5">
+            <ul class="space-x-6 text-right flex rounded-3xl bg-white w-80 justify-center ml-auto mr-auto custom-shadow custom-fixed" >
+                <li class="m-2 "><a href="/index.html">Home</a></li>
+                <li class="m-2 "><a href="/about.html">About</a></li>
+                <li class="m-2 "><a href="/project.html">Projects</a></li>
+                <li class="m-2 "><a href="/blog.html">Blog</a></li>
+                <li class="m-2 "><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="p-20 pb-1 w-3/4">
+            <p class="text-5xl font-extrabold pb-4">
+                HI THERE! LOVE WHAT I DO DON'T HESITATE TO CONTACT ME.
+            </p>
+            <p class="pb-2">
+                I'm thrilled to connect with you. Whether you have a question, collaboration idea, or just want to say hello, feel free to reach out using the form below. Your feedback is valuable, and I look forward to hearing from you!
+            </p>
+        </div>
+        <section>
+            <div class=" p-20">
+                <div class="w-3/4">
+                    <div class="">
+                        <div class="bg-white p-8 rounded shadow-md w-96">
+                            <form action="/submit" method="post">
+                                <div class="pb-3">
+                                    <label for="name" class="block text-gray-700 font-medium mb-2 text-lg">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Input your name"
+                                        class=" w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:border-blue-500"
+                                        required>
+                                </div>
+                                <div class="pb-3">
+                                    <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Input your Email"
+                                        class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:border-blue-500"
+                                        required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Your message here"
+                                        class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:border-blue-500"
+                                        required></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit"
+                                        class="border border-black p-1.5 text-white pt-1 pb-1 pl-7 pr-7 bg-gray-400">Send
+                                        Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="p-5 flex text-gray pt-20 justify-end">
+                    <div>
+                       <p>| Connect via linkedin : </p><br>
+                       <p>| Follow me on twitter : </p><br>
+                       <p>| Follow me on Github : </p><br>
+                       <p>| Contact me via Email : </p><br>
+                       <p>| Contact via whatsapp : </p><br>
+                    </div>
+                    <div class="pl-2">
+                        <i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i> <br><br>
+                        <i class="fa-brands fa-square-twitter fa-2xl pb-2" style="color: #000000;"></i> <br><br>
+                        <i class="fa-brands fa-square-github fa-2xl" style="color: #0c0d0d;"></i> <br><br>
+                        <i class="fa-solid fa-square-envelope fa-2xl" style="color: #000000;"></i> <br><br>
+                        <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #000000;"></i> <br><br>
+                    </div>
+                </div>
+        </section>
+    </section>
+    <hr>
+    <footer class=" bg-white pb-1">
+        <div class="flex pr-24 pl-24">
+            <nav class=" pt-5">
+                <ul class="space-x-8 flex w-80 pb-3 text-gray" >
+                <li class="m-2 "><a href="/index.html">Home</a></li>
+                <li class="m-2 "><a href="/about.html">About</a></li>
+                <li class="m-2 "><a href="/project.html">Projects</a></li>
+                <li class="m-2 "><a href="/blog.html">Blog</a></li>
+                <li class="m-2 "><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="text-right w-full">
+                <p class="text-gray pt-5/1/2 item-left justify-left pb-3">&copy; 2023 divineeffiong. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
